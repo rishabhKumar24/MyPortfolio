@@ -46,18 +46,18 @@ export const Projects = () => {
         >
           <motion.div
             className="project-image"
-            style={{ backgroundImage: "url('/projects/ai-saas.png')" }}
+            style={{ backgroundImage: "url('/projects/password.png')" }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
-          <h3> AI SaaS Platform</h3>
+          <h3> Random Password Generator</h3>
           <p>
-            A modern SaaS platform built with Next.js and OpenAI integration,
-            featuring real-time AI-powered content generation and analytics.
+            A modern web application that generates random passwords with
+            customizable options for length and complexity.
           </p>
           <div className="project-tech">
-            <span>Next.js</span>
-            <span>OpenAI</span>
-            <span>TailwindCSS</span>
+            <span>JAVASCRIPT</span>
+            <span>CSS</span>
+            <span>HTML</span>
           </div>
         </motion.div>
 
@@ -69,20 +69,20 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/social-media.png')",
+              backgroundImage: "url('/projects/tictactoe.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Social Media Dashboard</h3>
+          <h3>Tic Tac Toe Game</h3>
           <p>
-            A comprehensive social media management dashboard with analytics,
-            scheduling, and engagement tracking features.
+            A fun and interactive Tic Tac Toe game built with React, allowing
+            users to play against the computer or another player.
           </p>
           <div className="project-tech">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
+            <span>JAVASCRIPT</span>
+            <span>CSS</span>
+            <span>HTML</span>
           </div>
         </motion.div>
 
@@ -94,20 +94,21 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/stopwatch.png')",
+              backgroundImage: "url('/projects/randomgifgenerator.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Productivity Timer</h3>
+          <h3>Random GIF Generator</h3>
           <p>
-            A sleek productivity timer application with customizable work
-            sessions, statistics tracking, and dark mode support.
+            A fun and interactive web application that generates random GIFs
+            based on user input and preferences.
           </p>
           <div className="project-tech">
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>TailwindCSS</span>
+            <span>REACT</span>
+            <span>TAILWINDCSS</span>
+            <span>GIPHY API</span>
+            <span>HTML</span>
           </div>
         </motion.div>
       </motion.div>

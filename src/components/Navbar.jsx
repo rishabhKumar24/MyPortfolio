@@ -55,7 +55,21 @@ export const Navbar = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
+          <a href="https://devrishabh.hashnode.dev/">Blogs</a>
+        </motion.li>
+        <motion.li
+          variants={fadeInUp}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+        >
           <a href="#contact"> Contact</a>
+        </motion.li>
+        <motion.li
+          variants={fadeInUp}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <a href="/rishabh_cv.pdf" download>My CV</a>
         </motion.li>
       </motion.ul>
     </motion.nav>

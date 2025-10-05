@@ -40,7 +40,7 @@ export const Hero = () => {
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            PedroTech
+            Rishabh Kumar
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
             {" "}
@@ -72,14 +72,14 @@ export const Hero = () => {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com" target="_blank">
+            <motion.a href="https://github.com/rishabhKumar24" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
-            <motion.a href="https://linkedin.com" target="_blank">
+            <motion.a href="https://www.linkedin.com/in/rishabh-kumar-187b16184/" target="_blank">
               <i className="fab fa-linkedin"> </i>
             </motion.a>
-            <motion.a href="https://twitter.com" target="_blank">
-              <i className="fab fa-twitter"> </i>
+            <motion.a href="https://devrishabh.hashnode.dev/" target="_blank">
+              <i className="fas fa-blog"> </i>
             </motion.a>
           </motion.div>
         </motion.div>
@@ -105,7 +105,7 @@ export const Hero = () => {
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
-  codename: "PedroTech",
+  codename: "RishabhTech",
   origin: "🌍 Somewhere between a coffee shop and a terminal",
   role: "Fullstack Web Sorcerer",
   stack: {

@@ -30,7 +30,7 @@ function App() {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <p> &copy; 2025 PedroTech. All rights reserved.</p>
+        <p> Made with ❤️ by Rishabh Kumar.</p>
       </motion.footer>
     </div>
   );
